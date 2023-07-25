@@ -1,32 +1,26 @@
 {
   "type": "object",
   "properties": {
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "description": {
-      "title": "Long Description",
+    "productAccess_dc": {
       "type": "string"
     },
-    "done": {
-      "type": "boolean"
-    },
-    "due_date": {
-      "type": "string",
-      "format": "date"
-    },
-    "rating": {
-      "type": "integer",
-      "maximum": 5
-    },
-    "recurrence": {
-      "type": "string",
-      "enum": ["Never", "Daily", "Weekly", "Monthly"]
-    },
-    "recurrence_interval": {
-      "type": "integer"
+    "requestType": {
+      "type": "string"
     }
   },
-  "required": ["name", "due_date", "done"]
+  "required": [],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "requestType": {
+            "const": "C1"
+          }
+        }
+      },
+      "then": {
+        "required": ["productAccess_dc"]
+      }
+    }
+  ]
 }

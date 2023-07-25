@@ -42,6 +42,7 @@ const useStyles = makeStyles({
 });
 
 const initialData = {
+  requestType: ""
 };
 
 const renderers = [

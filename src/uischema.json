@@ -1,54 +1,29 @@
 {
   "type": "VerticalLayout",
+  "options": {
+    "style": {
+      "width": "100%"
+    }
+  },
   "elements": [
     {
       "type": "Control",
-      "label": "Completed",
-      "scope": "#/properties/done"
-    },
-    {
-      "type": "Control",
-      "scope": "#/properties/name"
-    },
-    {
-      "type": "HorizontalLayout",
-      "elements": [
-        {
-          "type": "Control",
-          "scope": "#/properties/due_date"
-        },
-        {
-          "type": "Control",
-          "scope": "#/properties/rating"
-        }
-      ]
-    },
-    {
-      "type": "HorizontalLayout",
-      "elements": [
-        {
-          "type": "Control",
-          "scope": "#/properties/recurrence"
-        },
-        {
-          "type": "Control",
-          "scope": "#/properties/recurrence_interval",
-          "rule": {
-            "effect": "HIDE",
-            "condition": {
-              "type": "LEAF",
-              "scope": "#/properties/recurrence",
-              "expectedValue": "Never"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "type": "Control",
-      "scope": "#/properties/description",
+      "label": "Select a category",
+      "scope": "#/properties/requestType",
       "options": {
-        "multi": true
+        "spectrumProps": {
+          "placeholder": "Enter your name"
+        }
+      }
+    },
+    {
+      "scope": "#/properties/productAccess_dc",
+      "type": "Control",
+      "label": "saas",
+      "options": {
+        "spectrumProps": {
+          "placeholder": "Enter your name"
+        }
       }
     }
   ]
