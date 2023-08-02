@@ -1,32 +1,810 @@
 {
   "type": "object",
   "properties": {
-    "name": {
+    "item": {
       "type": "string",
-      "minLength": 1
-    },
-    "description": {
-      "title": "Long Description",
-      "type": "string"
-    },
-    "done": {
-      "type": "boolean"
-    },
-    "due_date": {
-      "type": "string",
-      "format": "date"
-    },
-    "rating": {
-      "type": "integer",
-      "maximum": 5
-    },
-    "recurrence": {
-      "type": "string",
-      "enum": ["Never", "Daily", "Weekly", "Monthly"]
-    },
-    "recurrence_interval": {
-      "type": "integer"
+      "oneOf": [
+        {
+          "const": "item 0",
+          "title": "item 0"
+        },
+        {
+          "const": "item 1",
+          "title": "item 1"
+        },
+        {
+          "const": "item 2",
+          "title": "item 2"
+        },
+        {
+          "const": "item 3",
+          "title": "item 3"
+        },
+        {
+          "const": "item 4",
+          "title": "item 4"
+        },
+        {
+          "const": "item 5",
+          "title": "item 5"
+        },
+        {
+          "const": "item 6",
+          "title": "item 6"
+        },
+        {
+          "const": "item 7",
+          "title": "item 7"
+        },
+        {
+          "const": "item 8",
+          "title": "item 8"
+        },
+        {
+          "const": "item 9",
+          "title": "item 9"
+        },
+        {
+          "const": "item 10",
+          "title": "item 10"
+        },
+        {
+          "const": "item 11",
+          "title": "item 11"
+        },
+        {
+          "const": "item 12",
+          "title": "item 12"
+        },
+        {
+          "const": "item 13",
+          "title": "item 13"
+        },
+        {
+          "const": "item 14",
+          "title": "item 14"
+        },
+        {
+          "const": "item 15",
+          "title": "item 15"
+        },
+        {
+          "const": "item 16",
+          "title": "item 16"
+        },
+        {
+          "const": "item 17",
+          "title": "item 17"
+        },
+        {
+          "const": "item 18",
+          "title": "item 18"
+        },
+        {
+          "const": "item 19",
+          "title": "item 19"
+        },
+        {
+          "const": "item 20",
+          "title": "item 20"
+        },
+        {
+          "const": "item 21",
+          "title": "item 21"
+        },
+        {
+          "const": "item 22",
+          "title": "item 22"
+        },
+        {
+          "const": "item 23",
+          "title": "item 23"
+        },
+        {
+          "const": "item 24",
+          "title": "item 24"
+        },
+        {
+          "const": "item 25",
+          "title": "item 25"
+        },
+        {
+          "const": "item 26",
+          "title": "item 26"
+        },
+        {
+          "const": "item 27",
+          "title": "item 27"
+        },
+        {
+          "const": "item 28",
+          "title": "item 28"
+        },
+        {
+          "const": "item 29",
+          "title": "item 29"
+        },
+        {
+          "const": "item 30",
+          "title": "item 30"
+        },
+        {
+          "const": "item 31",
+          "title": "item 31"
+        },
+        {
+          "const": "item 32",
+          "title": "item 32"
+        },
+        {
+          "const": "item 33",
+          "title": "item 33"
+        },
+        {
+          "const": "item 34",
+          "title": "item 34"
+        },
+        {
+          "const": "item 35",
+          "title": "item 35"
+        },
+        {
+          "const": "item 36",
+          "title": "item 36"
+        },
+        {
+          "const": "item 37",
+          "title": "item 37"
+        },
+        {
+          "const": "item 38",
+          "title": "item 38"
+        },
+        {
+          "const": "item 39",
+          "title": "item 39"
+        },
+        {
+          "const": "item 40",
+          "title": "item 40"
+        },
+        {
+          "const": "item 41",
+          "title": "item 41"
+        },
+        {
+          "const": "item 42",
+          "title": "item 42"
+        },
+        {
+          "const": "item 43",
+          "title": "item 43"
+        },
+        {
+          "const": "item 44",
+          "title": "item 44"
+        },
+        {
+          "const": "item 45",
+          "title": "item 45"
+        },
+        {
+          "const": "item 46",
+          "title": "item 46"
+        },
+        {
+          "const": "item 47",
+          "title": "item 47"
+        },
+        {
+          "const": "item 48",
+          "title": "item 48"
+        },
+        {
+          "const": "item 49",
+          "title": "item 49"
+        },
+        {
+          "const": "item 50",
+          "title": "item 50"
+        },
+        {
+          "const": "item 51",
+          "title": "item 51"
+        },
+        {
+          "const": "item 52",
+          "title": "item 52"
+        },
+        {
+          "const": "item 53",
+          "title": "item 53"
+        },
+        {
+          "const": "item 54",
+          "title": "item 54"
+        },
+        {
+          "const": "item 55",
+          "title": "item 55"
+        },
+        {
+          "const": "item 56",
+          "title": "item 56"
+        },
+        {
+          "const": "item 57",
+          "title": "item 57"
+        },
+        {
+          "const": "item 58",
+          "title": "item 58"
+        },
+        {
+          "const": "item 59",
+          "title": "item 59"
+        },
+        {
+          "const": "item 60",
+          "title": "item 60"
+        },
+        {
+          "const": "item 61",
+          "title": "item 61"
+        },
+        {
+          "const": "item 62",
+          "title": "item 62"
+        },
+        {
+          "const": "item 63",
+          "title": "item 63"
+        },
+        {
+          "const": "item 64",
+          "title": "item 64"
+        },
+        {
+          "const": "item 65",
+          "title": "item 65"
+        },
+        {
+          "const": "item 66",
+          "title": "item 66"
+        },
+        {
+          "const": "item 67",
+          "title": "item 67"
+        },
+        {
+          "const": "item 68",
+          "title": "item 68"
+        },
+        {
+          "const": "item 69",
+          "title": "item 69"
+        },
+        {
+          "const": "item 70",
+          "title": "item 70"
+        },
+        {
+          "const": "item 71",
+          "title": "item 71"
+        },
+        {
+          "const": "item 72",
+          "title": "item 72"
+        },
+        {
+          "const": "item 73",
+          "title": "item 73"
+        },
+        {
+          "const": "item 74",
+          "title": "item 74"
+        },
+        {
+          "const": "item 75",
+          "title": "item 75"
+        },
+        {
+          "const": "item 76",
+          "title": "item 76"
+        },
+        {
+          "const": "item 77",
+          "title": "item 77"
+        },
+        {
+          "const": "item 78",
+          "title": "item 78"
+        },
+        {
+          "const": "item 79",
+          "title": "item 79"
+        },
+        {
+          "const": "item 80",
+          "title": "item 80"
+        },
+        {
+          "const": "item 81",
+          "title": "item 81"
+        },
+        {
+          "const": "item 82",
+          "title": "item 82"
+        },
+        {
+          "const": "item 83",
+          "title": "item 83"
+        },
+        {
+          "const": "item 84",
+          "title": "item 84"
+        },
+        {
+          "const": "item 85",
+          "title": "item 85"
+        },
+        {
+          "const": "item 86",
+          "title": "item 86"
+        },
+        {
+          "const": "item 87",
+          "title": "item 87"
+        },
+        {
+          "const": "item 88",
+          "title": "item 88"
+        },
+        {
+          "const": "item 89",
+          "title": "item 89"
+        },
+        {
+          "const": "item 90",
+          "title": "item 90"
+        },
+        {
+          "const": "item 91",
+          "title": "item 91"
+        },
+        {
+          "const": "item 92",
+          "title": "item 92"
+        },
+        {
+          "const": "item 93",
+          "title": "item 93"
+        },
+        {
+          "const": "item 94",
+          "title": "item 94"
+        },
+        {
+          "const": "item 95",
+          "title": "item 95"
+        },
+        {
+          "const": "item 96",
+          "title": "item 96"
+        },
+        {
+          "const": "item 97",
+          "title": "item 97"
+        },
+        {
+          "const": "item 98",
+          "title": "item 98"
+        },
+        {
+          "const": "item 99",
+          "title": "item 99"
+        },
+        {
+          "const": "item 100",
+          "title": "item 100"
+        },
+        {
+          "const": "item 101",
+          "title": "item 101"
+        },
+        {
+          "const": "item 102",
+          "title": "item 102"
+        },
+        {
+          "const": "item 103",
+          "title": "item 103"
+        },
+        {
+          "const": "item 104",
+          "title": "item 104"
+        },
+        {
+          "const": "item 105",
+          "title": "item 105"
+        },
+        {
+          "const": "item 106",
+          "title": "item 106"
+        },
+        {
+          "const": "item 107",
+          "title": "item 107"
+        },
+        {
+          "const": "item 108",
+          "title": "item 108"
+        },
+        {
+          "const": "item 109",
+          "title": "item 109"
+        },
+        {
+          "const": "item 110",
+          "title": "item 110"
+        },
+        {
+          "const": "item 111",
+          "title": "item 111"
+        },
+        {
+          "const": "item 112",
+          "title": "item 112"
+        },
+        {
+          "const": "item 113",
+          "title": "item 113"
+        },
+        {
+          "const": "item 114",
+          "title": "item 114"
+        },
+        {
+          "const": "item 115",
+          "title": "item 115"
+        },
+        {
+          "const": "item 116",
+          "title": "item 116"
+        },
+        {
+          "const": "item 117",
+          "title": "item 117"
+        },
+        {
+          "const": "item 118",
+          "title": "item 118"
+        },
+        {
+          "const": "item 119",
+          "title": "item 119"
+        },
+        {
+          "const": "item 120",
+          "title": "item 120"
+        },
+        {
+          "const": "item 121",
+          "title": "item 121"
+        },
+        {
+          "const": "item 122",
+          "title": "item 122"
+        },
+        {
+          "const": "item 123",
+          "title": "item 123"
+        },
+        {
+          "const": "item 124",
+          "title": "item 124"
+        },
+        {
+          "const": "item 125",
+          "title": "item 125"
+        },
+        {
+          "const": "item 126",
+          "title": "item 126"
+        },
+        {
+          "const": "item 127",
+          "title": "item 127"
+        },
+        {
+          "const": "item 128",
+          "title": "item 128"
+        },
+        {
+          "const": "item 129",
+          "title": "item 129"
+        },
+        {
+          "const": "item 130",
+          "title": "item 130"
+        },
+        {
+          "const": "item 131",
+          "title": "item 131"
+        },
+        {
+          "const": "item 132",
+          "title": "item 132"
+        },
+        {
+          "const": "item 133",
+          "title": "item 133"
+        },
+        {
+          "const": "item 134",
+          "title": "item 134"
+        },
+        {
+          "const": "item 135",
+          "title": "item 135"
+        },
+        {
+          "const": "item 136",
+          "title": "item 136"
+        },
+        {
+          "const": "item 137",
+          "title": "item 137"
+        },
+        {
+          "const": "item 138",
+          "title": "item 138"
+        },
+        {
+          "const": "item 139",
+          "title": "item 139"
+        },
+        {
+          "const": "item 140",
+          "title": "item 140"
+        },
+        {
+          "const": "item 141",
+          "title": "item 141"
+        },
+        {
+          "const": "item 142",
+          "title": "item 142"
+        },
+        {
+          "const": "item 143",
+          "title": "item 143"
+        },
+        {
+          "const": "item 144",
+          "title": "item 144"
+        },
+        {
+          "const": "item 145",
+          "title": "item 145"
+        },
+        {
+          "const": "item 146",
+          "title": "item 146"
+        },
+        {
+          "const": "item 147",
+          "title": "item 147"
+        },
+        {
+          "const": "item 148",
+          "title": "item 148"
+        },
+        {
+          "const": "item 149",
+          "title": "item 149"
+        },
+        {
+          "const": "item 150",
+          "title": "item 150"
+        },
+        {
+          "const": "item 151",
+          "title": "item 151"
+        },
+        {
+          "const": "item 152",
+          "title": "item 152"
+        },
+        {
+          "const": "item 153",
+          "title": "item 153"
+        },
+        {
+          "const": "item 154",
+          "title": "item 154"
+        },
+        {
+          "const": "item 155",
+          "title": "item 155"
+        },
+        {
+          "const": "item 156",
+          "title": "item 156"
+        },
+        {
+          "const": "item 157",
+          "title": "item 157"
+        },
+        {
+          "const": "item 158",
+          "title": "item 158"
+        },
+        {
+          "const": "item 159",
+          "title": "item 159"
+        },
+        {
+          "const": "item 160",
+          "title": "item 160"
+        },
+        {
+          "const": "item 161",
+          "title": "item 161"
+        },
+        {
+          "const": "item 162",
+          "title": "item 162"
+        },
+        {
+          "const": "item 163",
+          "title": "item 163"
+        },
+        {
+          "const": "item 164",
+          "title": "item 164"
+        },
+        {
+          "const": "item 165",
+          "title": "item 165"
+        },
+        {
+          "const": "item 166",
+          "title": "item 166"
+        },
+        {
+          "const": "item 167",
+          "title": "item 167"
+        },
+        {
+          "const": "item 168",
+          "title": "item 168"
+        },
+        {
+          "const": "item 169",
+          "title": "item 169"
+        },
+        {
+          "const": "item 170",
+          "title": "item 170"
+        },
+        {
+          "const": "item 171",
+          "title": "item 171"
+        },
+        {
+          "const": "item 172",
+          "title": "item 172"
+        },
+        {
+          "const": "item 173",
+          "title": "item 173"
+        },
+        {
+          "const": "item 174",
+          "title": "item 174"
+        },
+        {
+          "const": "item 175",
+          "title": "item 175"
+        },
+        {
+          "const": "item 176",
+          "title": "item 176"
+        },
+        {
+          "const": "item 177",
+          "title": "item 177"
+        },
+        {
+          "const": "item 178",
+          "title": "item 178"
+        },
+        {
+          "const": "item 179",
+          "title": "item 179"
+        },
+        {
+          "const": "item 180",
+          "title": "item 180"
+        },
+        {
+          "const": "item 181",
+          "title": "item 181"
+        },
+        {
+          "const": "item 182",
+          "title": "item 182"
+        },
+        {
+          "const": "item 183",
+          "title": "item 183"
+        },
+        {
+          "const": "item 184",
+          "title": "item 184"
+        },
+        {
+          "const": "item 185",
+          "title": "item 185"
+        },
+        {
+          "const": "item 186",
+          "title": "item 186"
+        },
+        {
+          "const": "item 187",
+          "title": "item 187"
+        },
+        {
+          "const": "item 188",
+          "title": "item 188"
+        },
+        {
+          "const": "item 189",
+          "title": "item 189"
+        },
+        {
+          "const": "item 190",
+          "title": "item 190"
+        },
+        {
+          "const": "item 191",
+          "title": "item 191"
+        },
+        {
+          "const": "item 192",
+          "title": "item 192"
+        },
+        {
+          "const": "item 193",
+          "title": "item 193"
+        },
+        {
+          "const": "item 194",
+          "title": "item 194"
+        },
+        {
+          "const": "item 195",
+          "title": "item 195"
+        },
+        {
+          "const": "item 196",
+          "title": "item 196"
+        },
+        {
+          "const": "item 197",
+          "title": "item 197"
+        },
+        {
+          "const": "item 198",
+          "title": "item 198"
+        },
+        {
+          "const": "item 199",
+          "title": "item 199"
+        }
+      ]
     }
-  },
-  "required": ["name", "due_date"]
+  }
 }
